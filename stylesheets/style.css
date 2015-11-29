@@ -1,0 +1,45 @@
+header, main, footer{
+  min-width: 855px;
+}
+
+footer{
+  background-color: lightgray;
+  overflow: auto;
+}
+
+header{
+  overflow: auto;
+}
+
+header .container, main .container, footer .container{
+  max-width: 855px;
+  margin: auto;
+}
+
+header nav{
+  border: 1px dashed gray;
+  padding: 5px;
+  width: 285px;
+  float: right;
+}
+
+header h1{
+  float:left;
+  width: 570px;
+}
+
+header h2:{
+  float:left;
+}
+
+main form{
+  float:right;
+}
+
+footer .contact{
+  float: left;
+}
+
+footer .sitemap{
+  float: right;
+}

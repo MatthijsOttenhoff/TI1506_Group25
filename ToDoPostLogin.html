@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DeadlineSaver</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+ </head>
+
+ <body>
+  <header>
+  <div>
+    <h1>DeadlineSaver</h1>
+      <h2>"Never fail a course!"</h2>
+  </div>
+  <div>
+    <nav>
+     <a href= "#"> Profile </a> |
+     <a href= "#"> Log out </a> |
+     <a href= "#"> FAQ </a>
+    </nav>
+  </div>
+
+  </header>
+
+
+  <main>
+   <div class="upperleft">
+    <ul>
+     <!-- <li><a href="#" id = "addtodo">Add a TO DO</a></li> -->
+     <li><a href="#">Set/Change deadline</a></li>
+     <li><a href="#">Set priority</a></li>
+    </ul>
+   </div>
+
+   <div class="lowerleft">
+    <h5>Shown labels</h5>
+    <ul class='label-list'>
+     <li><p>EWI1360TU</p></li>
+     <li><p>TI1206</p></li>
+     <li><p>TI1506</p></li>
+    </ul>
+    <ul class='label-editor'>
+      <li><a href="#">Add label</a></li>
+      <li><a href="#">Remove label</a></li>
+    </ul>
+    <a href="#" id='label-manager'>Manage labels</a>
+   </div>
+
+   <div class="right">
+    <a href="#", id='sort-az'>Sort A-Z</a> |
+    <a href="#", id='sort-date'>Sort by date</a> |
+    <a href="#", id='sort-priority'>Sort by priority</a>
+    <table border="1" style="width:60%" id="todolist">
+    <thead class='toprow'>
+    <tr>
+      <th>Label</th>
+      <th>Name</th>
+      <th>Deadline</th>
+      <th>Priority</th>
+      <th>Done</th>
+      <th>Remove</th>
+    </tr>
+    </thead>
+    <tbody>
+     <tr class='table-input'>
+      <td><input type="text" class= 'label'></td>
+      <td><input type="text" class= 'name'></td>
+      <td><input type="date" class= 'deadline'></td>
+      <td><input type="range" min = '1' max = '5' class= 'priority'></td>
+      <td></td>
+      <td></td>
+     </tr>
+    </tbody>
+    </table>
+    <a href="#", id='addtodo'>Add a TO DO</a>
+
+   </div>
+  </main>
+
+  <footer>
+   <div class="contact">
+    <h5>Contact us</h5>
+    <p>DeadlineSaver</p>
+    <p>Stevinweg 1</p>
+    <p>2611, Delft</p>
+   </div>
+
+   <div class="help">
+    <h5>Help centre</h5>
+    <ul>
+     <li><a href="#">FAQ</a></li>
+     <li><a href="#">Support</a></li>
+     <li><a href="#">Privacy</a></li>
+    </ul>
+   </div>
+
+   <div class="sitemap">
+    <h5>Sitemap</h5>
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About us</a></li>
+     <li><a href="#">Careers</a></li>
+    </ul>
+   </div>
+  </footer>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="javascripts/app.js"></script>
+ </body>
+</html>

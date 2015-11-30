@@ -11,33 +11,36 @@ header{
   overflow: auto;
 }
 
-header .container, main .container, footer .container{
+.container{
   max-width: 855px;
   margin: auto;
+}
+
+h1, h2, h3, h4, h5, p, a, li{
+  font-family: 'Ruda', sans-serif;
 }
 
 header nav{
   border: 1px dashed gray;
   padding: 5px;
-  width: 285px;
   float: right;
+  position: relative;
+  bottom: 100px;
 }
 
-header h1{
-  float:left;
-  width: 570px;
-}
-
-header h2:{
-  float:left;
-}
-
-main form{
+.registration{
+  margin-top: 40px;
+  background-color: lightgray;
   float:right;
 }
 
 footer .contact{
   float: left;
+}
+
+footer .help{
+  position: relative;
+  left: 250px;
 }
 
 footer .sitemap{
